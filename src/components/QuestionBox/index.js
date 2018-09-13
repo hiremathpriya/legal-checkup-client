@@ -1,13 +1,13 @@
 import React from 'react'
-import { StyledQuestionBox } from '../styled'
 
-import { handleFalsy } from '../../utilities'
+import Question from '../../containers/Question'
+import QuestionCounter from '../../containers/QuestionCounter'
 
-export default function QuestionBox ({ questions, activeQuestion }) {
-  const { body } = questions[activeQuestion]
-
-  return handleFalsy(body, <StyledQuestionBox>{body}</StyledQuestionBox>)
+export default function QuestionBox () {
+  return (
+    <div>
+      <QuestionCounter />
+      <Question />
+    </div>
+  )
 }
-
-// rename THIS component as Question
-// then in QuestionBox pass only the components and styled components <Question> <QuestionCounter>

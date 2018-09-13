@@ -1,9 +1,9 @@
 import Layout from './Layout'
-import QuestionBox from './QuestionBox'
+import Question from './Question'
 import QuestionCounter from './QuestionCounter'
 
 export {
   Layout as StyledLayout,
-  QuestionBox as StyledQuestionBox,
+  Question as StyledQuestion,
   QuestionCounter as StyledQuestionCounter
 }

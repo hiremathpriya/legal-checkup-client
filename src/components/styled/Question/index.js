@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const QuestionBox = styled.div`
+const Question = styled.div`
   width: 260px;
   height: 120px;
   font-family: Helvetica;
@@ -12,6 +12,6 @@ const QuestionBox = styled.div`
   letter-spacing: normal;
   text-align: center;
 `
-QuestionBox.displayName = 'StyledQuestionBox'
+Question.displayName = 'StyledQuestion'
 
-export default QuestionBox
+export default Question

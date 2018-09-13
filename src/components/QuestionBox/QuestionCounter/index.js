@@ -1,8 +1,8 @@
 import React from 'react'
-import { StyledQuestionCounter } from '../styled'
+import { StyledQuestionCounter } from '../../styled'
 import { keysIn, length } from 'ramda'
 
-import { handleFalsy } from '../../utilities'
+import { handleFalsy } from '../../../utilities'
 
 export default function QuestionCounter ({
   questions = {},

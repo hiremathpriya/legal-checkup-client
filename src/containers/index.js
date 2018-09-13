@@ -1,4 +1,4 @@
-import QuestionBox from './QuestionBox'
+import Question from './Question'
 import QuestionCounter from './QuestionCounter'
 
-export { QuestionBox, QuestionCounter }
+export { Question, QuestionCounter }

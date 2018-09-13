@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 
-import { QuestionBox } from '../../components'
+import { Question } from '../../components'
 import { getActiveQuestion, getQuestions } from '../../state'
 
 function mapStateToProps (state) {
@@ -10,4 +10,4 @@ function mapStateToProps (state) {
   }
 }
 
-export default connect(mapStateToProps)(QuestionBox)
+export default connect(mapStateToProps)(Question)

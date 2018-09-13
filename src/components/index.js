@@ -4,7 +4,8 @@ import Layout from './Layout'
 import AnswerBar from './AnswerBar'
 import ProgressBar from './ProgressBar'
 import QuestionBox from './QuestionBox'
-import QuestionCounter from './QuestionCounter'
+import Question from './QuestionBox/Question'
+import QuestionCounter from './QuestionBox/QuestionCounter'
 
 export {
   Footer,
@@ -13,5 +14,6 @@ export {
   AnswerBar,
   ProgressBar,
   QuestionBox,
+  Question,
   QuestionCounter
 }
