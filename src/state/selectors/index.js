@@ -80,6 +80,14 @@ export const getResponseList = createSelector(
   }, [])
 )
 
+export const getAnswer = {}
+
+export const getCurrentResponseAnswer = createSelector(
+  getActiveQuestionIndex,
+  getResponses,
+  (activeQuestionIndex, responses) => responses
+)
+
 // Use `getResponseList` then pass it to Ramda's `length` function to get the response count
 export const getResponseCount = createSelector(getResponseList, length)
 
