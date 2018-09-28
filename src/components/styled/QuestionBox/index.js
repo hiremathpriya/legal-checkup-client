@@ -10,7 +10,7 @@ const QuestionBox = styled.div`
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  margin: 0px auto;
+  margin: 0px auto 10px auto;
 `
 QuestionBox.displayName = 'StyledQuestionBox'
 

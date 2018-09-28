@@ -12,7 +12,7 @@ const QuestionCounter = styled.div`
   letter-spacing: normal;
   text-align: center;
   color: #9b9b9b;
-  margin: 0px auto;
+  margin: 0px auto 15px auto;
 `
 QuestionCounter.displayName = 'StyledQuestionCounter'
 

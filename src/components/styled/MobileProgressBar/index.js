@@ -4,7 +4,7 @@ const MobileProgressBar = styled.nav`
   background-color: #fff;
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin-bottom: 25px;
 `
 
 MobileProgressBar.displayName = 'StyledMobileProgressBar'
