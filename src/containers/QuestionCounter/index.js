@@ -4,7 +4,7 @@ import StyledQuestionCounter from '@components/styled/QuestionCounter'
 import { connect } from 'react-redux'
 
 function mapStateToProps (state) {
-  const children = `${getActiveQuestionIndex(state) + 1}/${getQuestionCount(
+  const children = `${getActiveQuestionIndex(state) + 1} / ${getQuestionCount(
     state
   )}`
 

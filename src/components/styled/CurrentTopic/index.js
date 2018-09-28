@@ -10,6 +10,9 @@ const CurrentTopic = styled.div`
   padding: 0 10px;
   text-align: center;
   width: 158px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `
 
 CurrentTopic.displayName = 'StyledCurrentTopic'

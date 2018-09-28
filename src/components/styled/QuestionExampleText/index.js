@@ -6,6 +6,7 @@ const QuestionExampleText = styled.div`
   font-family: Helvetica;
   font-size: 16px;
   text-align: center;
+  font-weight: 300;
   color: #9b9b9b;
 `
 QuestionExampleText.displayName = 'StyledQuestionExampleText'
