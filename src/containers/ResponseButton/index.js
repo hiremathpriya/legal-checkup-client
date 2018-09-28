@@ -5,6 +5,8 @@ import {
   userRespondedWithYes
 } from '@state/actions'
 
+import { getCurrentResponseAnswer } from '@state/selectors'
+
 import StyledResponseButton from '@components/styled/ResponseButton'
 import { connect } from 'react-redux'
 
@@ -19,10 +21,23 @@ function getAction (type) {
   }
 }
 
+function mapStateToProps (state, { type }) {
+  getCurrentResponseAnswer(state).length > 0
+    ? console.log(getCurrentResponseAnswer(state))
+    : console.log('No responses')
+
+  return {
+    alreadyAnswered: undefined
+  }
+}
+
 function mapDispatchToProps (dispatch, { type }) {
   return {
     onClick: () => dispatch(getAction(type))
   }
 }
 
-export default connect(null, mapDispatchToProps)(StyledResponseButton)
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(StyledResponseButton)
