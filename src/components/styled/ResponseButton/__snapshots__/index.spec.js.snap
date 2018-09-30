@@ -12,6 +12,9 @@ exports[`components:styled:NoButton renders the NoButton and CSS properties prop
   height: 78px;
   margin-left: 0;
   width: 88px;
+  outline: 0;
+  padding: 0px;
+  text-align: center;
 }
 
 .c0:after {

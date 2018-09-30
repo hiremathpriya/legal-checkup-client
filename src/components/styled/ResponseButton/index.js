@@ -14,6 +14,8 @@ const ResponseButton = styled.button`
   margin-left: ${({ type }) => (type === NOT_SURE ? '7px' : 0)};
   width: ${({ type }) => (type === NOT_SURE ? '109px' : '88px')};
   outline: 0;
+  padding: 0px;
+  text-align: center;
 
   &:after {
     content: '${({ type }) => type}';

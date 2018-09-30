@@ -23,7 +23,7 @@ function getAction (type) {
 
 function mapStateToProps (state, { type }) {
   getCurrentResponseAnswer(state).length > 0
-    ? console.log(getCurrentResponseAnswer(state))
+    ? console.log(getCurrentResponseAnswer(state), type)
     : console.log('No responses')
 
   return {
