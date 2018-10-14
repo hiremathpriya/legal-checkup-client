@@ -5,8 +5,8 @@ export default function Footer () {
   return (
     <div>
       <StyledFooter>
-        <StyledFooterLink href='http://communitylaw.org.nz/'>
-          Copyright 2018 by Community Law
+        <StyledFooterLink href='http://communitylaw.org.nz/' target='_blank'>
+          © 2018 by Community Law
         </StyledFooterLink>
         <StyledFooterLink href='/privacy-policy'>
           Privacy Policy

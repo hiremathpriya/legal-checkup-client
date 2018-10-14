@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 
 const FooterLink = styled.a`
-  width: 92px;
-  height: 20px;
+  padding-top: 20px;
   opacity: 0.53;
   font-family: Avenir;
   font-size: 15px;
@@ -11,12 +10,10 @@ const FooterLink = styled.a`
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+  display: block;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  &:hover {
-    text-decoration: underline;
-  }
 `
 FooterLink.displayName = 'StyledFooterLink'
 
