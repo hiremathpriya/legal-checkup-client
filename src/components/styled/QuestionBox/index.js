@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const QuestionBox = styled.div`
-  width: 260px;
+  max-width: 350px;
   font-family: Helvetica;
   font-size: 25px;
   font-weight: normal;
