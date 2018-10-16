@@ -11,6 +11,9 @@ const QuestionBox = styled.div`
   letter-spacing: normal;
   text-align: center;
   margin: 0px auto 10px auto;
+  height: 240px;
+  display: flex;
+  align-items: center;
 `
 QuestionBox.displayName = 'StyledQuestionBox'
 

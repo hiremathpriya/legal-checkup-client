@@ -14,7 +14,16 @@ exports[`components:styled:QuestionBox renders the QuestionBox component with pr
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   text-align: center;
-  margin: 0px auto;
+  margin: 0px auto 10px auto;
+  height: 240px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div

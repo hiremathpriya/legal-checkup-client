@@ -11,7 +11,7 @@ exports[`components:styled:NoButton renders the NoButton and CSS properties prop
   border-bottom-right-radius: 5px;
   height: 78px;
   margin-left: 0;
-  width: 88px;
+  width: 78px;
   outline: 0;
   padding: 0px;
   text-align: center;

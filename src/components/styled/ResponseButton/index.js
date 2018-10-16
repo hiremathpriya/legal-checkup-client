@@ -12,7 +12,7 @@ const ResponseButton = styled.button`
   border-bottom-right-radius: ${({ type }) => (type === YES ? 0 : '5px')};
   height: 78px;
   margin-left: ${({ type }) => (type === NOT_SURE ? '7px' : 0)};
-  width: ${({ type }) => (type === NOT_SURE ? '109px' : '88px')};
+  width: ${({ type }) => (type === NOT_SURE ? '96px' : '78px')};
   outline: 0;
   padding: 0px;
   text-align: center;

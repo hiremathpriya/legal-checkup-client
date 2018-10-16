@@ -5,7 +5,6 @@ const MobileProgressBar = styled.nav`
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
-  padding: 30px;
 `
 
 MobileProgressBar.displayName = 'StyledMobileProgressBar'
