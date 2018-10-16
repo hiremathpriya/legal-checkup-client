@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
-const Layout = styled.section`
-  color: #333;
-`
+const Layout = styled.section``
 Layout.displayName = 'StyledLayout'
 
 export default Layout
